@@ -1,0 +1,43 @@
+{
+	"name": "pmndrs",
+	"icon": "assets/pmndrs.png",
+	"displayName": "TyloTheme",
+	"description": "Tylos dark theme",
+	"version": "0.0.1",
+	"keywords": [
+		"Tylopilus",
+		"tylo",
+		"vsc",
+		"dark",
+		"theme"
+	],
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"dev": "node src/watcher"
+	},
+	"author": "Helge Ahrens",
+	"publisher": "Helge Ahrens",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tylopilus Color Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tylopilus-default.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"filewatcher": "^3.0.1",
+		"prettier": "^2.2.1",
+		"sharp": "^0.28.0"
+	}
+}
