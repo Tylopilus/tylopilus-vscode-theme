@@ -1,6 +1,6 @@
 {
-	"name": "pmndrs",
-	"icon": "assets/pmndrs.png",
+	"name": "TyloTheme",
+	"icon": "assets/themeOverview.png",
 	"displayName": "TyloTheme",
 	"description": "Tylos dark theme",
 	"version": "0.0.1",
